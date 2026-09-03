@@ -1,0 +1,6 @@
+{
+  "name": "Ghezoui Dental Centre",
+  "description": "Premium dental clinic and aesthetic dentistry in Oujda, Morocco.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
