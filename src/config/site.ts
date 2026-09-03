@@ -1,19 +1,17 @@
 export const siteConfig = {
-  name: "Ghezoui Dental Centre",
-  doctor: "Dr Soumia Ghezoui",
-  description: "Des soins dentaires modernes et une dentisterie esthétique pensée pour révéler votre sourire.",
+  name: "Centre Dentaire Dr Chaymae Moumen",
+  doctor: "Dr Chaymae Moumen",
+  description: "Spécialiste en orthodontie, soins dentaires modernes et dentisterie esthétique.",
   location: {
-    address: "PL 16 AOUT, IMM BENMOUSSA N18, 2 EME ETG",
-    city: "Oujda",
+    address: "Angle rue Fès et rue Sultan Moulay Mohammed, Hay El Hassani, Résidence Al Johri 1, 3ème étage, Bureau N°3",
+    city: "Berkane",
     country: "Morocco",
-    googleMapsUrl: "https://maps.google.com/?q=Ghezoui+Dental+Centre+Oujda", // Placeholder
+    googleMapsUrl: "https://maps.app.goo.gl/fKvi3qWbELVNT4Wt8",
   },
   contact: {
-    phone: "0536682425",
-    phoneDisplay: "05 36 68 24 25",
-    whatsapp: "+212706668437",
-    whatsappDisplay: "+212 7 06 66 84 37",
-    whatsappMessage: "Bonjour, je souhaite prendre rendez-vous au Ghezoui Dental Centre.",
+    phone: "0536612222",
+    phoneDisplay: "05 36 61 22 22",
+    email: "Chaimae.oke@gmail.com",
   },
   hours: [
     { days: "LUNDI – VENDREDI", time: "09:00 – 13:00 / 15:00 – 18:00" },
@@ -21,12 +19,12 @@ export const siteConfig = {
     { days: "DIMANCHE", time: "Fermé" }
   ],
   services: [
-    { id: "soins", title: "Soins dentaires", description: "Des soins conservateurs de haute qualité pour préserver la santé de vos dents au quotidien." },
-    { id: "esthetique", title: "Dentisterie esthétique", description: "Révélez l'éclat naturel de votre sourire grâce à nos traitements esthétiques sur mesure." },
-    { id: "prothese", title: "Prothèse", description: "Restauration de la fonction et de l'esthétique avec des prothèses de pointe." },
-    { id: "chirurgie", title: "Chirurgie", description: "Interventions chirurgicalales réalisées avec précision et dans un confort optimal." }
+    { id: "orthodontie", title: "Orthodontie", description: "Des traitements orthodontiques pour aligner vos dents et sublimer votre sourire." },
+    { id: "esthetique", title: "Dentisterie esthétique", description: "Blanchiment dentaire et esthétique pour révéler l'éclat naturel de votre sourire." },
+    { id: "soins", title: "Soins & Chirurgie", description: "Soins conservateurs, parodontie et interventions chirurgicales de haute qualité." },
+    { id: "prothese", title: "Implants et Prothèses", description: "Restauration de la fonction et de l'esthétique avec des solutions de pointe." }
   ],
   socials: {
-    instagram: "https://instagram.com/dr_soumia_ghezoui",
+    instagram: "https://instagram.com/dr_chaymae_moumen",
   }
 };

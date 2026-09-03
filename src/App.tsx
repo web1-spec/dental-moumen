@@ -11,7 +11,6 @@ import { About } from './components/sections/About';
 import { Services } from './components/sections/Services';
 import { BeforeAfter } from './components/sections/BeforeAfter';
 import { Location } from './components/sections/Location';
-import { BookingModal } from './components/ui/BookingModal';
 
 export default function App() {
   return (
@@ -28,7 +27,6 @@ export default function App() {
 
       <Footer />
       <FloatingActions />
-      <BookingModal />
     </div>
   );
 }

@@ -1,6 +1,6 @@
 {
-  "name": "Ghezoui Dental Centre",
-  "description": "Premium dental clinic and aesthetic dentistry in Oujda, Morocco.",
+  "name": "Centre Dentaire Dr Chaymae Moumen",
+  "description": "Premium dental clinic, orthodontics and aesthetic dentistry in Berkane, Morocco.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

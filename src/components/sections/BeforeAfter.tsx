@@ -41,7 +41,7 @@ export function BeforeAfter() {
   }, []);
 
   return (
-    <section id="resultats" className="py-10 md:py-20 bg-white overflow-hidden">
+    <section id="resultats" className="py-16 md:py-24 bg-white overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 md:px-12">
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-16 items-center">
           
@@ -57,7 +57,7 @@ export function BeforeAfter() {
               L'art du <br/> <span className="text-champagne">sourire.</span>
             </h2>
             
-            <div className="relative bg-ivory p-8 md:p-10 rounded-[2rem] border border-burgundy/5">
+            <div className="relative bg-ivory-dark p-8 md:p-10 rounded-[2rem] border border-burgundy/5">
               <Quote size={40} className="text-champagne/20 absolute top-6 left-6" />
               <p className="text-charcoal/80 text-quote relative z-10">
                 "Un résultat incroyablement naturel. J'ai enfin retrouvé confiance en moi, avec un accompagnement parfait du début à la fin."
@@ -99,7 +99,7 @@ export function BeforeAfter() {
               
               {/* Before Image (Base layer) */}
               <img 
-                src="https://res.cloudinary.com/hga2p0nl/image/upload/v1788461827/WhatsApp_Image_2026-09-03_at_20.56.24_1_wcj8dx.jpg" 
+                src="https://res.cloudinary.com/hga2p0nl/image/upload/v1788472522/WhatsApp_Image_2026-09-03_at_23.54.42_m63rwd.jpg" 
                 alt="Avant traitement" 
                 className="absolute inset-0 w-full h-full object-cover pointer-events-none"
                 style={{ objectPosition: 'center 25%' }}
@@ -115,7 +115,7 @@ export function BeforeAfter() {
                 style={{ clipPath: `inset(0 0 0 ${sliderPosition}%)` }}
               >
                 <img 
-                  src="https://res.cloudinary.com/hga2p0nl/image/upload/v1788461827/WhatsApp_Image_2026-09-03_at_20.56.24_lgrqjs.jpg" 
+                  src="https://res.cloudinary.com/hga2p0nl/image/upload/v1788472522/WhatsApp_Image_2026-09-03_at_23.54.41_s8lnvw.jpg" 
                   alt="Après traitement" 
                   className="absolute inset-0 w-full h-full object-cover"
                   style={{ objectPosition: 'center 25%' }}

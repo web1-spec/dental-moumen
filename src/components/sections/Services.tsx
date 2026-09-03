@@ -4,7 +4,7 @@ import { siteConfig } from '../../config/site';
 
 export function Services() {
   return (
-    <section id="soins" className="pt-6 pb-12 md:pt-10 md:pb-20 bg-ivory">
+    <section id="soins" className="py-16 md:py-24 bg-ivory">
       <div className="max-w-7xl mx-auto px-6 md:px-12">
         <motion.div 
           initial={{ opacity: 0, y: 20 }}
@@ -54,15 +54,13 @@ function ServiceCard({ service, index }: { service: any; index: number }) {
   const Icon = Icons[index];
 
   return (
-    <motion.div
-      onClick={() => {
-        window.dispatchEvent(new CustomEvent('open-booking-modal', { detail: { service: service.title } }));
-      }}
+    <motion.a
+      href="#contact"
       initial={{ opacity: 0, y: 40 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: "-100px" }}
       transition={{ duration: 0.8, delay: index * 0.1, ease: [0.25, 1, 0.5, 1] }}
-      className="group relative overflow-hidden rounded-[20px] md:rounded-[28px] cursor-pointer bg-charcoal aspect-[3/4] md:aspect-[4/5] w-full"
+      className="group relative overflow-hidden rounded-[20px] md:rounded-[28px] cursor-pointer bg-charcoal aspect-[3/4] md:aspect-[4/5] w-full block"
     >
       <div className="absolute inset-0">
         <img 
@@ -72,7 +70,7 @@ function ServiceCard({ service, index }: { service: any; index: number }) {
           style={{ objectPosition: imagePositions[index] }}
         />
         {/* Subtle Warm Color Grading */}
-        <div className="absolute inset-0 bg-[#441720] mix-blend-color opacity-10 pointer-events-none"></div>
+        <div className="absolute inset-0 bg-burgundy mix-blend-color opacity-10 pointer-events-none"></div>
         
         {/* Premium Gradient Overlay */}
         <div 
@@ -111,6 +109,6 @@ function ServiceCard({ service, index }: { service: any; index: number }) {
           </div>
         </div>
       </div>
-    </motion.div>
+    </motion.a>
   );
 }

@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 export function Location() {
   return (
-    <section id="contact" className="py-12 md:py-20 bg-ivory">
+    <section id="contact" className="py-16 md:py-24 bg-ivory">
       <div className="max-w-7xl mx-auto px-6 md:px-12">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
           
@@ -19,7 +19,7 @@ export function Location() {
               Venir au cabinet
             </h2>
             <p className="text-body text-charcoal/80 mb-8 md:mb-12 max-w-md">
-              Situé au cœur d'Oujda, le cabinet est conçu pour vous offrir une expérience de soins optimale dans un environnement apaisant.
+              Situé au cœur de Berkane, le cabinet est conçu pour vous offrir une expérience de soins optimale dans un environnement apaisant.
             </p>
 
             <div className="space-y-8">
@@ -78,28 +78,14 @@ export function Location() {
             <div className="space-y-4">
               <a
                 href={`tel:${siteConfig.contact.phone}`}
-                className="w-full p-4 border border-burgundy/20 rounded-xl flex items-center space-x-4 hover:border-burgundy hover:bg-ivory transition-colors group"
+                className="w-full p-4 border border-burgundy/20 rounded-xl flex items-center space-x-4 hover:border-burgundy hover:bg-ivory hover:shadow-md hover:-translate-y-1 transition-all duration-300 group"
               >
-                <div className="w-12 h-12 rounded-full bg-burgundy/5 flex items-center justify-center group-hover:bg-burgundy group-hover:text-white transition-colors text-burgundy">
+                <div className="w-12 h-12 rounded-full bg-burgundy/5 flex items-center justify-center group-hover:bg-burgundy group-hover:text-white transition-colors duration-300 text-burgundy">
                   <Phone size={24} />
                 </div>
                 <div>
-                  <div className="text-eyebrow text-charcoal/50 mb-1">Appeler le secrétariat</div>
-                  <div className="text-h3 text-charcoal">{siteConfig.contact.phoneDisplay}</div>
-                </div>
-              </a>
-
-              <a
-                href={`https://wa.me/${siteConfig.contact.whatsapp}?text=${encodeURIComponent(siteConfig.contact.whatsappMessage)}`}
-                target="_blank" rel="noopener noreferrer"
-                className="w-full p-4 border border-[#25D366]/20 rounded-xl flex items-center space-x-4 hover:border-[#25D366] hover:bg-[#25D366]/5 transition-colors group"
-              >
-                <div className="w-12 h-12 rounded-full bg-[#25D366]/10 flex items-center justify-center group-hover:bg-[#25D366] group-hover:text-white transition-colors text-[#25D366]">
-                  <MessageCircle size={24} />
-                </div>
-                <div>
-                  <div className="text-eyebrow text-charcoal/50 mb-1">Message WhatsApp</div>
-                  <div className="text-h3 text-charcoal">{siteConfig.contact.whatsappDisplay}</div>
+                  <div className="text-eyebrow text-charcoal/50 mb-1 transition-colors duration-300 group-hover:text-burgundy/80">Appeler le secrétariat</div>
+                  <div className="text-h3 text-charcoal transition-colors duration-300 group-hover:text-burgundy-900">{siteConfig.contact.phoneDisplay}</div>
                 </div>
               </a>
             </div>
@@ -107,7 +93,7 @@ export function Location() {
             <div className="mt-8 text-center">
               <p className="text-body text-charcoal/70 mb-4">Ou suivez-nous sur les réseaux pour découvrir notre quotidien.</p>
               <a href={siteConfig.socials.instagram} target="_blank" rel="noopener noreferrer" className="text-nav text-burgundy hover:underline">
-                @dr_soumia_ghezoui
+                @dr_chaymae_moumen
               </a>
             </div>
           </motion.div>

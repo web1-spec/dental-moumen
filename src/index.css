@@ -1,15 +1,15 @@
 @import "tailwindcss";
 
 @theme {
-  --color-burgundy-900: #210A0F;
-  --color-burgundy-800: #331118;
-  --color-burgundy-700: #441720;
-  --color-burgundy: #441720; /* Primary */
-  --color-ivory: #FCFBF9;
-  --color-ivory-dark: #F4F2EC;
-  --color-champagne: #C2A278;
-  --color-charcoal: #1C1717;
-  --color-charcoal-light: #3A3233;
+  --color-burgundy-900: #421C2B; /* Deep plum/mauve for dark sections like footer */
+  --color-burgundy-800: #6D2C45; /* Dark magenta */
+  --color-burgundy-700: #933C5D; /* Medium-dark magenta */
+  --color-burgundy: #BA4A72; /* Primary Pink/Magenta from the business card */
+  --color-ivory: #FFFFFF;
+  --color-ivory-dark: #FDF6F8; /* Soft pink-tinted off-white for subtle backgrounds */
+  --color-champagne: #D4A345; /* Rich gold from the tooth logo */
+  --color-charcoal: #2A2426; /* Warm dark grey for text */
+  --color-charcoal-light: #52474B;
   --color-white: #FFFFFF;
 
   --font-serif: "DM Serif Display", serif;
@@ -116,6 +116,7 @@
 /* Utility classes for smooth scrolling and other things if needed */
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
 }
 
 /* Custom Scrollbar */

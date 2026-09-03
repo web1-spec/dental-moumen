@@ -15,16 +15,16 @@ export function Hero() {
           playsInline
           preload="auto"
           className="w-full h-full object-cover object-[65%_center] lg:object-center motion-reduce:hidden"
-          poster="https://res.cloudinary.com/hga2p0nl/image/upload/w_1920,q_auto,f_auto/v1788464398/Dentist_and_patient_smiling_1080p_202609031857_-_frame_at_0m0s_qherlh.jpg"
+          poster="https://res.cloudinary.com/hga2p0nl/video/upload/w_1920,q_auto,f_auto,so_0/v1788469940/Luxury_dental_clinic_video_story__202609032310_a97nsz.jpg"
         >
           {/* Using Cloudinary optimizations: max width 1920px, auto quality, and providing both WebM and MP4 formats */}
-          <source src="https://res.cloudinary.com/hga2p0nl/video/upload/w_1920,q_auto,f_webm/v1788454652/Dentist_and_patient_smiling_1080p_202609031857_wu0ypr.webm" type="video/webm" />
-          <source src="https://res.cloudinary.com/hga2p0nl/video/upload/w_1920,q_auto,f_mp4/v1788454652/Dentist_and_patient_smiling_1080p_202609031857_wu0ypr.mp4" type="video/mp4" />
+          <source src="https://res.cloudinary.com/hga2p0nl/video/upload/w_1920,q_auto,f_webm/v1788469940/Luxury_dental_clinic_video_story__202609032310_a97nsz.webm" type="video/webm" />
+          <source src="https://res.cloudinary.com/hga2p0nl/video/upload/w_1920,q_auto,f_mp4/v1788469940/Luxury_dental_clinic_video_story__202609032310_a97nsz.mp4" type="video/mp4" />
         </video>
         
         {/* Fallback poster for reduced motion or slow connections */}
         <img 
-          src="https://res.cloudinary.com/hga2p0nl/image/upload/w_1920,f_auto,q_auto/v1788464398/Dentist_and_patient_smiling_1080p_202609031857_-_frame_at_0m0s_qherlh.jpg"
+          src="https://res.cloudinary.com/hga2p0nl/video/upload/w_1920,f_auto,q_auto,so_0/v1788469940/Luxury_dental_clinic_video_story__202609032310_a97nsz.jpg"
           alt="Clinique dentaire haut de gamme"
           className="hidden motion-reduce:block w-full h-full object-cover object-[65%_center] lg:object-center"
         />
@@ -61,7 +61,7 @@ export function Hero() {
             className="text-h1 text-burgundy-900 mb-8"
           >
             Votre sourire, <br />
-            <span className="text-champagne block mt-2 drop-shadow-sm">notre signature.</span>
+            <span className="text-champagne block mt-2 drop-shadow-sm">notre passion.</span>
           </motion.h1>
 
           <motion.p
@@ -79,21 +79,11 @@ export function Hero() {
             transition={{ duration: 1.2, delay: 0.6, ease: [0.25, 1, 0.5, 1] }}
             className="flex flex-col sm:flex-row gap-4"
           >
-            <button
-              onClick={() => {
-                window.dispatchEvent(new CustomEvent('open-booking-modal'));
-              }}
+            <a
+              href={`tel:${siteConfig.contact.phone}`}
               className="px-8 py-4 bg-burgundy text-white rounded-full text-btn text-center hover:bg-burgundy-900 hover:shadow-lg hover:shadow-burgundy/20 hover:-translate-y-0.5 transition-all duration-300 animate-subtle-pulse"
             >
               Prendre rendez-vous
-            </button>
-            <a
-              href={`https://wa.me/${siteConfig.contact.whatsapp}?text=${encodeURIComponent(siteConfig.contact.whatsappMessage)}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="px-8 py-4 bg-ivory/80 backdrop-blur-md text-charcoal border border-burgundy/15 rounded-full text-btn text-center hover:border-burgundy/30 hover:bg-white transition-all duration-300"
-            >
-              Contact WhatsApp
             </a>
           </motion.div>
         </div>

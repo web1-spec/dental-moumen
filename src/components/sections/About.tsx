@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 
 export function About() {
   return (
-    <section id="cabinet" className="pt-4 pb-2 md:pt-10 md:pb-6 bg-ivory overflow-hidden">
+    <section id="cabinet" className="py-16 md:py-24 bg-ivory overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 md:px-12">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
           
@@ -16,7 +16,7 @@ export function About() {
               className="relative z-10 w-4/5 rounded-[2rem] overflow-hidden"
             >
               <img 
-                src="https://res.cloudinary.com/hga2p0nl/image/upload/v1788451813/WhatsApp_Image_2026-09-03_at_18.09.27_1_alu3r1.jpg" 
+                src="https://res.cloudinary.com/hga2p0nl/image/upload/v1788470473/WhatsApp_Image_2026-09-03_at_23.19.52_jwn8xd.jpg" 
                 alt="Clinic Interior" 
                 className="w-full aspect-[4/5] object-cover"
               />
@@ -30,7 +30,7 @@ export function About() {
               className="absolute -bottom-10 -right-4 w-3/5 rounded-[1.5rem] overflow-hidden shadow-[0_20px_40px_-15px_rgba(0,0,0,0.1)] border-[12px] border-ivory z-20"
             >
               <img 
-                src="https://res.cloudinary.com/hga2p0nl/image/upload/v1788451811/WhatsApp_Image_2026-09-03_at_18.08.28_m7rilg.jpg" 
+                src="https://res.cloudinary.com/hga2p0nl/image/upload/v1788470473/WhatsApp_Image_2026-09-03_at_23.19.53_nktu7u.jpg" 
                 alt="Dental Tools" 
                 className="w-full aspect-square object-cover"
               />
@@ -54,25 +54,25 @@ export function About() {
               
               <div className="space-y-6 text-body text-charcoal/80">
                 <p>
-                  Au Ghezoui Dental Centre, nous croyons qu'une visite chez le dentiste doit être une expérience sereine, professionnelle et sur mesure.
+                  Au Centre Dentaire Dr Chaymae Moumen, nous croyons qu'une visite chez le dentiste doit être une expérience sereine, professionnelle et sur mesure.
                 </p>
                 <p>
-                  Le Dr Soumia Ghezoui et son équipe vous accueillent dans un cadre moderne à Oujda, équipé des dernières technologies dentaires. Nous accordons une importance primordiale à l'écoute, afin de comprendre vos attentes avant de proposer une solution.
+                  Le Dr Chaymae Moumen, lauréate de l'Université Internationale Abulcasis des Sciences de la Santé de Rabat, et son équipe vous accueillent dans un cadre moderne à Berkane, équipé des dernières technologies dentaires. Nous accordons une importance primordiale à l'écoute, afin de comprendre vos attentes avant de proposer une solution.
                 </p>
                 <p>
-                  De la prévention aux restaurations esthétiques complexes, chaque détail est travaillé pour un résultat harmonieux et durable.
+                  De la prévention aux restaurations esthétiques complexes et traitements orthodontiques, chaque détail est travaillé pour un résultat harmonieux et durable.
                 </p>
               </div>
 
               <div className="mt-6 pt-6 border-t border-burgundy/10">
                 <div className="flex items-center space-x-5">
                   {/* Doctor avatar placeholder */}
-                  <div className="w-14 h-14 rounded-full bg-burgundy/10 overflow-hidden border border-burgundy/20 shrink-0">
-                     <img src="https://res.cloudinary.com/hga2p0nl/image/upload/v1788451811/WhatsApp_Image_2026-09-03_at_18.08.28_m7rilg.jpg" alt="Dr Soumia Ghezoui" className="w-full h-full object-cover"/>
+                  <div className="w-14 h-14 rounded-full bg-burgundy/10 overflow-hidden border border-burgundy/20 shrink-0 flex items-center justify-center">
+                    <img src="https://res.cloudinary.com/hga2p0nl/image/upload/v1788470473/WhatsApp_Image_2026-09-03_at_23.19.53_nktu7u.jpg" alt="Dr Chaymae Moumen" className="w-full h-full object-cover" />
                   </div>
                   <div>
-                    <h4 className="text-h3 text-burgundy-900 mb-0.5">Dr Soumia Ghezoui</h4>
-                    <p className="text-sm font-medium tracking-wide uppercase text-charcoal/50 m-0">Chirurgien Dentiste</p>
+                    <h4 className="text-h3 text-burgundy-900 mb-0.5">Dr Chaymae Moumen</h4>
+                    <p className="text-sm font-medium tracking-wide uppercase text-charcoal/50 m-0">Chirurgien Dentiste - Orthodontie</p>
                   </div>
                 </div>
               </div>
