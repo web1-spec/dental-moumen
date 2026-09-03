@@ -15,7 +15,7 @@ export function Hero() {
           playsInline
           preload="auto"
           className="w-full h-full object-cover object-[65%_center] lg:object-center motion-reduce:hidden"
-          poster="https://res.cloudinary.com/hga2p0nl/video/upload/w_1920,q_auto,f_auto,so_0/v1788469940/Luxury_dental_clinic_video_story__202609032310_a97nsz.jpg"
+          poster="https://res.cloudinary.com/hga2p0nl/image/upload/v1788473961/Luxury_dental_clinic_video_story__202609032310_-_frame_at_0m0s_okpmwj.jpg"
         >
           {/* Using Cloudinary optimizations: max width 1920px, auto quality, and providing both WebM and MP4 formats */}
           <source src="https://res.cloudinary.com/hga2p0nl/video/upload/w_1920,q_auto,f_webm/v1788469940/Luxury_dental_clinic_video_story__202609032310_a97nsz.webm" type="video/webm" />
@@ -24,7 +24,7 @@ export function Hero() {
         
         {/* Fallback poster for reduced motion or slow connections */}
         <img 
-          src="https://res.cloudinary.com/hga2p0nl/video/upload/w_1920,f_auto,q_auto,so_0/v1788469940/Luxury_dental_clinic_video_story__202609032310_a97nsz.jpg"
+          src="https://res.cloudinary.com/hga2p0nl/image/upload/v1788473961/Luxury_dental_clinic_video_story__202609032310_-_frame_at_0m0s_okpmwj.jpg"
           alt="Clinique dentaire haut de gamme"
           className="hidden motion-reduce:block w-full h-full object-cover object-[65%_center] lg:object-center"
         />
